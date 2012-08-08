@@ -8,9 +8,9 @@ Requires Python 2.7.
 
 # Usage #
 
-Wrap whitespace that should not be rendered as part of the template output in [[ ]] . To insert a literal [[ or ]] use
-[\[ and ]\] . To insert a literal [\[ or ]\] use [\\[ or ]\\] . This works for any number of backslashes, and will 
-render any n backslashes surrounded by the same bracket as n - 1 backslashes surrounded by that bracket.
+Wrap whitespace that should not be rendered as part of the template output in [[ ]] . To insert a literal [\[ or ]\] 
+use [\\[ or ]\\] . This works for any number of backslashes, and will render any n backslashes surrounded by the same 
+bracket as n - 1 backslashes surrounded by that bracket.
 
 # Irritating limitations #
 
