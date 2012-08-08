@@ -1,0 +1,6 @@
+[[    ]]Who's attending
+[[    ]]---------------
+{% for person in attending %}[[
+    ]]{{ person }} will be there!
+{% endfor %}[[
+]]Enjoy everyone!
